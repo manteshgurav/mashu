@@ -12,7 +12,7 @@ mongoose.set("strictQuery", false);
 // Connect to MongoDB Cloud database
 mongoose
   .connect(
-    "mongodb+srv://mahanteshgurav82:DuZ9AU1UOYAarPmf@test-pro-db.wu36v74.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://user2000:user3000@test-pro-db.wu36v74.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to MongoDB");
